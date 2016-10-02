@@ -2,6 +2,10 @@ var express = require('express');
 var router = express.Router();
 var User = require('../models/user');
 
+router.get('/', function (req, res, next) {
+   res.render('index');
+});
+
 router.get('/:userTitle?', function(req, res, next) {
     var email = '';
     User.findOne({}, function(err, doc){
