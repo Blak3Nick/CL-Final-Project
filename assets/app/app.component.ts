@@ -48,5 +48,5 @@ export class AppComponent {
     message = {
         content: 'A message',
         author: 'Blake'
-    }
+    };
 }
