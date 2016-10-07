@@ -2,6 +2,7 @@
 import {Component} from "angular2/src/core/metadata";
 import {Message} from "./message";
 import {Http} from "angular2/src/http/http";
+import {MessageService} from "./message.service";
 @Component({
     selector: 'my-message-input',
     template: `
@@ -12,18 +13,19 @@ import {Http} from "angular2/src/http/http";
             </div>
             <button type="submit" class="btn btn-primary" (click)="onCreate(input.value)"> Send Message</button>
         </section>
-`
+`,
+
 
 })
 
 
 export class MessageInputComponent {
-    constructor(private http: Http) {
+    constructor(private _messageService: MessageService) {
 
     }
     onCreate(content: string)
     {
         const message: Message = new Message(content, null, 'Dummy');
-        console.log(message);
+        this._messageService.addMessage(message);
     }
 }
