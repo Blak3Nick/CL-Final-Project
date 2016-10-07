@@ -4,7 +4,7 @@ import {Message} from "./message";
 @Component({
     selector: 'my-message',
     template: `
-                <article class="panel panel-default">
+                <article class="panel panel-default" >
                     <div class="panel-body">
                     {{ message.content }}
             
