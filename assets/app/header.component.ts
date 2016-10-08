@@ -24,6 +24,10 @@ import {ROUTER_DIRECTIVES} from "angular2/router";
             float: none;
             display: inline-block;
         }
+        .router-link-active {
+            background-color: #00B7FF;
+            color: whitesmoke;
+        }
 `]
 })
 export class HeaderComponent {
