@@ -2,7 +2,7 @@ import {Component} from "angular2/src/core/metadata";
 import {MessageComponent} from "./message.component";
 import {Message} from "./message";
 import {MessageService} from "./message.service";
-import {OnInit} from "angular2/src/core/linker/interfaces";
+import {OnInit} from "angular2/core";
 @Component({
     selector: 'my-message-list',
     template: `
@@ -20,6 +20,12 @@ export class MessageListComponent implements OnInit{
     }
     messages: Message[] = [];
     ngOnInit() {
-        this.messages = this._messageService.getMessage();
+        this._messageService.getMessage()
+            .subscribe(
+                messages => {
+                    this.messages =  messages;
+                    this._messageService.messages = messages;
+                }
+            );
     }
 }
