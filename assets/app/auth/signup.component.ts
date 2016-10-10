@@ -1,5 +1,6 @@
 import {Component, OnInit} from "angular2/core";
-import {FormBuilder, ControlGroup, Validators} from "angular2/common";
+import {FormBuilder, ControlGroup, Validators, Control} from "angular2/common";
+
 
 
 @Component({
@@ -47,5 +48,11 @@ export class SignupComponent implements OnInit{
             password: ['', Validators.required]
 
         });
+    }
+
+    private isEmail(control: Control): { [s: string]: boolean } {
+        if (!control.value.match()) {
+            return {invalidMail: true}
+        }
     }
 }
