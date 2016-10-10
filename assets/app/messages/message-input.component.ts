@@ -1,7 +1,7 @@
 
 import {Component} from "angular2/src/core/metadata";
 import {Message} from "./message";
-import {Http} from "angular2/src/http/http";
+import {Http} from "angular2/http";
 import {MessageService} from "./message.service";
 @Component({
     selector: 'my-message-input',
@@ -27,7 +27,11 @@ export class MessageInputComponent {
     }
     onSubmit(form: any) {
         const message: Message = new Message(form.content, null, 'Dummy');
-        this._messageService.addMessage(message);
+        this._messageService.addMessage(message)
+            .subscribe(
+                data => console.log(data),
+                error => console.error(error)
+            );
     }
     onCreate(content: string)
     {
