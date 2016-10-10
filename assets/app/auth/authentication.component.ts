@@ -23,7 +23,7 @@ import {LogoutComponent} from "./logout.component";
     directives: [SignupComponent, ROUTER_DIRECTIVES],
     styles: [`
     .router-link-active {
-        color: #555;
+        color: #750fbf;
         cursor: default;
         background-color: #00B7FF;
         border: 1px solid #ddd;

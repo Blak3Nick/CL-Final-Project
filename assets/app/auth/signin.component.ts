@@ -13,7 +13,7 @@ import {FormBuilder, ControlGroup, Validators, Control} from "angular2/common";
         <label for="password">Password</label>
         <input [ngFormControl]="myForm.find('password')" type="password" id="password" class="form-control">
         </div>   
-        <button type="submit" class="btn btn-primary" [disabled]="!myForm.valid">Sign Up</button>
+        <button type="submit" class="btn btn-primary" [disabled]="!myForm.valid">Sign In</button>
     </form>
 </section>
 `
