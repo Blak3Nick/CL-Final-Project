@@ -1,13 +1,15 @@
 import {Message} from "./message";
 import {Http, Headers} from "angular2/http";
-import {Injectable} from "angular2/core";
+import {Injectable, EventEmitter} from "angular2/core";
 import 'rxjs/Rx';
 import {Observable} from "rxjs/Observable";
+
 
 @Injectable()
 
 export class MessageService {
     messages :Message[] = [];
+    messageIsEdit = new EventEmitter<Message>();
     constructor(private _http: Http) {}
     addMessage(message: Message) {
         const body = JSON.stringify(message);
@@ -36,7 +38,9 @@ export class MessageService {
     }
 
     editMessage(message: Message) {
-        this.messages[this.messages.indexOf(message)] = new Message('Edited', null, 'Dummy');
+      this.messageIsEdit.emit(message);
+
+       // this.messages[this.messages.indexOf(message)] = new Message('Edited', null, 'Dummy');
     }
 
     deleteMessage(message: Message) {
