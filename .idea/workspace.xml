@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5705afa-206f-4874-80ba-fb0368007538" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/messages/message-input.component.ts" afterPath="$PROJECT_DIR$/assets/app/messages/message-input.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/messages/message.service.ts" afterPath="$PROJECT_DIR$/assets/app/messages/message.service.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
@@ -38,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.service.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="message.service.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/messages/message.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="438">
@@ -82,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message-input.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="message-input.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/messages/message-input.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
@@ -160,8 +159,8 @@
         <option value="$PROJECT_DIR$/assets/app/messages/message-list.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/messages/message.component.ts" />
         <option value="$PROJECT_DIR$/routes/messages.js" />
-        <option value="$PROJECT_DIR$/assets/app/messages/message.service.ts" />
         <option value="$PROJECT_DIR$/assets/app/messages/message-input.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/messages/message.service.ts" />
       </list>
     </option>
   </component>
@@ -432,7 +431,7 @@
       <workItem from="1475965868026" duration="5386000" />
       <workItem from="1476115408346" duration="6860000" />
       <workItem from="1476130396328" duration="14000" />
-      <workItem from="1476393642361" duration="2261000" />
+      <workItem from="1476393642361" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="working with routes and views in express and node">
       <created>1475330905317</created>
@@ -630,11 +629,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476395518774</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Setting up editing and deleting">
+      <created>1476395910827</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1476395910827</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39010000" />
+    <option name="totallyTimeSpent" value="39356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1064,6 +1070,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/messages/message-input.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="e#1#54#0" expanded="true" />
+            <marker date="1476395873207" expanded="true" signature="326:913" ph="..." />
+            <marker date="1476395873207" expanded="true" signature="384:894" ph="..." />
+            <marker date="1476395873207" expanded="true" signature="421:617" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/messages.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -1078,19 +1097,6 @@
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/messages/message-input.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <element signature="e#1#54#0" expanded="true" />
-            <marker date="1476395873207" expanded="true" signature="326:913" ph="..." />
-            <marker date="1476395873207" expanded="true" signature="384:894" ph="..." />
-            <marker date="1476395873207" expanded="true" signature="421:617" ph="..." />
           </folding>
         </state>
       </provider>
