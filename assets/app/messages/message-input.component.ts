@@ -11,7 +11,7 @@ import {OnInit} from "angular2/core";
         <form (ngSubmit)="onSubmit(f.value)" #f="ngForm">
             <div class="form-group">
                 <label for="content">Content</label>
-                <input ngControl="content" type="text" class="form-control" id="content" #input [value]="message?.content">
+                <input ngControl="content" type="text" class="form-control" id="content" #input [ngModel]="message?.content">
             </div>
             <button type="submit" class="btn btn-primary" (click)="onCreate(input.value)"> {{!message ? 'Send Message' : 'Save Message'}}</button>
             <button type="button" (click)="onCancel()" *ngIf="message" class="btn btn-danger">Cancel</button>
