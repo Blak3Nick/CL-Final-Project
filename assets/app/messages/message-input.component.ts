@@ -31,6 +31,8 @@ export class MessageInputComponent implements OnInit{
     onSubmit(form: any) {
         if (this.message){
             //Edit
+            this.message.content = form.content;
+            this.message = null;
         }else {
         const message: Message = new Message(form.content, null, 'Dummy');
         this._messageService.addMessage(message)
