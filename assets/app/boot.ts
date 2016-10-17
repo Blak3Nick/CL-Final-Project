@@ -7,5 +7,6 @@ import {ROUTER_PROVIDERS} from "angular2/src/router/router_providers";
 import {provide} from "angular2/core";
 import {LocationStrategy} from "angular2/router";
 import {HashLocationStrategy} from "angular2/router";
+import {AuthService} from "./auth/auth.service";
 
-bootstrap(AppComponent, [HTTP_PROVIDERS, MessageService, ROUTER_PROVIDERS, provide(LocationStrategy, {useClass: HashLocationStrategy})]);
+bootstrap(AppComponent, [HTTP_PROVIDERS, MessageService, AuthService, ROUTER_PROVIDERS, provide(LocationStrategy, {useClass: HashLocationStrategy})]);
