@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 var appRoutes = require('./routes/app');
-var messageRoutes = require('./routes/messages');
+var exerciseRoutes = require('./routes/exercises');
 var userRoutes = require('./routes/users');
 
 var app = express();
@@ -29,7 +29,7 @@ app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Methods', 'POST, GET, PATCH, DELETE');
     next();
 });
-app.use('/message', messageRoutes);
+app.use('/exercise', exerciseRoutes);
 app.use('/user', userRoutes);
 app.use('/', appRoutes);
 

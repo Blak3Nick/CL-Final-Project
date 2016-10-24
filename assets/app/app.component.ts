@@ -4,6 +4,7 @@ import {RouteConfig} from "angular2/router";
 import {MessagesComponent} from "./messages/messages.component";
 import {AuthenticationComponent} from "./auth/authentication.component";
 import {ROUTER_DIRECTIVES} from "angular2/router";
+import {ExercisesComponent} from "./exercises/exercises.component";
 
 
 @Component({
@@ -17,7 +18,7 @@ import {ROUTER_DIRECTIVES} from "angular2/router";
     directives: [ROUTER_DIRECTIVES, HeaderComponent]
 })
 @RouteConfig([
-    {path: '/', name: 'Messages', component: MessagesComponent, useAsDefault: true},
+    {path: '/', name: 'Exercises', component: ExercisesComponent, useAsDefault: true},
     {path: '/auth/...', name: 'Auth', component: AuthenticationComponent}
 ])
 export class AppComponent {

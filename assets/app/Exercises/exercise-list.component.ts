@@ -22,7 +22,7 @@ export class ExerciseListComponent implements OnInit{
     ngOnInit() {
         this._exerciseService.getExercise()
             .subscribe(
-                messages => {
+                exercises => {
                     this.exercises =  exercises;
                     this._exerciseService.exercises = exercises;
                 }

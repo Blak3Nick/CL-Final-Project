@@ -8,7 +8,7 @@ import {Observable} from "rxjs/Observable";
 @Injectable()
 
 export class ExerciseService {
-    exercise :Exercise[] = [];
+    exercises :Exercise[] = [];
     exerciseIsEdit = new EventEmitter<Exercise>();
     constructor(private _http: Http) {}
     addExercise(exercise: Exercise) {
