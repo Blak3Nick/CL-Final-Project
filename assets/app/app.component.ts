@@ -1,6 +1,4 @@
 import {Component} from 'angular2/core';
-import {MessageListComponent} from "./messages/message-list.component";
-import {MessageInputComponent} from "./messages/message-input.component";
 import {HeaderComponent} from "./header.component";
 import {RouteConfig} from "angular2/router";
 import {MessagesComponent} from "./messages/messages.component";
