@@ -1,0 +1,61 @@
+import {Component, EventEmitter, Input, Output} from "angular2/core";
+import {Exercise} from "./exercise";
+import {MessageService} from "./message.service";
+
+@Component({
+    selector: 'my-message',
+    template: `
+                <article class="panel panel-default" >
+                    <div class="panel-body">
+                    {{ exercise.username }}
+            
+                    </div> 
+                    <footer class="panel-footer">
+                        <div class="author">
+                            {{ message.username}}
+                        </div>
+                        <div class="config" *ngIf="belongsToUser()">
+                            <a (click)="onEdit()">Edit</a>
+                            <a (click)="onDelete()">Delete</a>
+                        </div>
+                    </footer>
+                </article>
+`,
+    styles: [`
+    .author {
+        display: inline-block;
+        font-style: italic;
+        font-size: 12px;
+        width: 80%;
+        
+    }
+    .config {
+        display: inline-block;
+        text-align: right;
+        font-size: 12px;
+        width: 19%;
+    }
+`]
+})
+export class MessageComponent {
+    @Input() exercise: Exercise;
+    @Output() editClicked = new EventEmitter<string>();
+
+    constructor( private _messageService: MessageService){
+
+    }
+
+    onEdit() {
+        this._messageService.editMessage(this.message);
+    }
+    onDelete() {
+        this._messageService.deleteMessage(this.message)
+            .subscribe(
+                data => console.log(data),
+                error => console.error(error)
+            );
+    }
+    belongsToUser() {
+        return localStorage.getItem('userId') == this.message.userId;
+    }
+}
