@@ -41,7 +41,7 @@ export class ExerciseService {
         const body = JSON.stringify(exercise);
         const headers = new Headers({'Content-Type': 'application/json'});
         const token = localStorage.getItem('token') ? '?token=' + localStorage.getItem('token'):" ";
-        return this._http.patch('http://localhost:3000/exercise/' + exercise.exerciseId + token, body, {headers: headers})
+        return this._http.patch('http://localhost:3000/exercise/' + exercise.userId + token, body, {headers: headers})
             .map(response => response.json())
             .catch(error => Observable.throw(error.json()));
     }
@@ -54,7 +54,7 @@ export class ExerciseService {
     deleteExercise(exercise: Exercise) {
         this.exercises.splice(this.exercises.indexOf(exercise), 1);
         const token = localStorage.getItem('token') ? '?token=' + localStorage.getItem('token'):" ";
-        return this._http.delete('http://localhost:3000/exercise/' + exercise.exerciseId + token)
+        return this._http.delete('http://localhost:3000/exercise/' + exercise.userId + token)
             .map(response => response.json())
             .catch(error => Observable.throw(error.json()));
     }

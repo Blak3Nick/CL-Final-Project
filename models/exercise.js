@@ -4,9 +4,9 @@ var Schema = mongoose.Schema;
 var User = require('../models/user');
 var schema = new Schema({
     exName: {type: String, required: true},
-    sets: {type: number},
-    reps: {type: number},
-    weight: {type: number},
+    sets: {type: Number},
+    reps: {type: Number},
+    weight: {type: Number},
     user: {type: Schema.Types.ObjectId, ref: 'User'}
 });
 schema.post('remove', function (doc) {

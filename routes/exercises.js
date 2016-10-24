@@ -49,7 +49,7 @@ router.post('/', function(req, res, next){
             weight: req.body.weight,
             user: doc
         });
-        exercisee.save(function(err, result){
+        exercise.save(function(err, result){
             if (err) {
                 return res.status(404).json({
                     title: 'An error occurred',

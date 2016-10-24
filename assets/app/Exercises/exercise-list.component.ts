@@ -7,7 +7,7 @@ import {ExerciseService} from "./exercise.service";
     selector: 'my-exercise-list',
     template: `
             <section class="col-md-8 col-md-offset-2">
-            <my-message *ngFor="#exercise of exercises" [exercise]="exercise" (editClicked)="exercise.exName = $event" ></my-message>
+            <my-exercise *ngFor="#exercise of exercises" [exercise]="exercise" (editClicked)="exercise.exName = $event" ></my-exercise>
             </section>
 `,
     directives: [ExerciseComponent]

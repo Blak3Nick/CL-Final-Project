@@ -8,15 +8,15 @@ export class Exercise {
     userId: string;
     reps: number;
     weight: number;
-    exerciseId: string;
 
-    constructor (exName?: string, sets?: number, username?: string, userId?: string, reps?: number, weight?: number, exerciseId?: string) {
+
+    constructor (exName?: string, sets?: number, username?: string, userId?: string, reps?: number, weight?: number ) {
         this.exName = exName;
         this.sets = sets;
         this.username = username;
         this.userId = userId;
         this.reps = reps;
         this.weight = weight;
-        this.exerciseId = exerciseId;
+
     }
 }

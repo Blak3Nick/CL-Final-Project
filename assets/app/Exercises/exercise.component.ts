@@ -7,13 +7,20 @@ import {ExerciseService} from "./exercise.service";
     template: `
                 <article class="panel panel-default" >
                     <div class="panel-body">
-                    {{ exercise.username }}
+                    {{ exercise.exName }}
             
-                    </div> 
-                    <footer class="panel-footer">
-                        <div class="author">
-                            {{ exercise.exName}}
-                        </div>
+                 </div> 
+                 <div class="author">
+                       {{ exercise.sets}}
+                 </div>
+                 <div class="author">
+                       {{ exercise.reps}}
+                 </div>
+                 <div class="author">
+                       {{ exercise.weight}}
+                 </div>
+                 <footer class="panel-footer">
+                 
                         <div class="config" *ngIf="belongsToUser()">
                             <a (click)="onEdit()">Edit</a>
                             <a (click)="onDelete()">Delete</a>
