@@ -8,7 +8,7 @@ var schema = new Schema({
     reps: {type: Number},
     weight: {type: Number},
     user: {type: Schema.Types.ObjectId, ref: 'User'}
-});
+    });
 schema.post('remove', function (doc) {
     var deletedExercise = doc;
     User.findById(doc.user, function (err, doc) {

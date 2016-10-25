@@ -21,10 +21,7 @@ import {OnInit} from "angular2/core";
                 <label for="reps">Reps</label>
                 <input ngControl="reps" type="text" class="form-control" id="reps" #input [ngModel]="exercise?.reps">
             </div>
-            <!--<div class="form-group">-->
-                <!--<label for="username">Username</label>-->
-                <!--<input ngControl="username" type="text" class="form-control" id="username" #input [ngModel]="exercise?.username">-->
-            <!--</div>            -->
+
             <div class="form-group">
                 <label for="weight">Weight</label>
                 <input ngControl="weight" type="text" class="form-control" id="weight" #input [ngModel]="exercise?.weight">
@@ -51,6 +48,7 @@ export class ExerciseInputComponent implements OnInit{
             this.exercise.sets = form.sets;
             this.exercise.weight = form.weight;
             this.exercise.reps = form.reps;
+            console.log(this.exercise);
             this._exerciseService.updateExercise(this.exercise)
                 .subscribe(
                     data => console.log(data),

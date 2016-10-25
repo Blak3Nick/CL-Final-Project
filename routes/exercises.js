@@ -88,7 +88,10 @@ router.patch('/:id', function (req, res, next) {
 
             });
         }
-        doc.content = req.body.exName;
+        doc.exName = req.body.exName;
+        doc.sets = req.body.sets;
+        doc.reps = req.body.reps;
+        doc.weight = req.body.weight;
         doc.save(function (err, result) {
             if (err) {
                 return res.status(404).json({

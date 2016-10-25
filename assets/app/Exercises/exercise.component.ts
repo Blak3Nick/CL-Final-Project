@@ -63,6 +63,6 @@ export class ExerciseComponent {
             );
     }
     belongsToUser() {
-        return localStorage.getItem('userId') == this.exercise.userId;
+        return true;
     }
 }

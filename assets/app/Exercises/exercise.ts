@@ -3,20 +3,20 @@
 
 export class Exercise {
     exName: string;
-    username: string;
     sets: number;
-    userId: string;
+
     reps: number;
     weight: number;
+    id: string;
 
 
-    constructor (exName?: string, sets?: number, username?: string, userId?: string, reps?: number, weight?: number ) {
+    constructor (exName?: string, sets?: number, reps?: number, weight?: number, id?: string ) {
         this.exName = exName;
         this.sets = sets;
-        this.username = username;
-        this.userId = userId;
         this.reps = reps;
         this.weight = weight;
+        this.id = id;
+
 
     }
 }

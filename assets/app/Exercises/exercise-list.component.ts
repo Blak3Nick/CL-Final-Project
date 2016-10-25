@@ -20,11 +20,13 @@ export class ExerciseListComponent implements OnInit{
     }
     exercises: Exercise[] = [];
     ngOnInit() {
+        console.log('test');
         this._exerciseService.getExercise()
             .subscribe(
                 exercises => {
                     this.exercises =  exercises;
                     this._exerciseService.exercises = exercises;
+
                 }
             );
     }
