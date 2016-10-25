@@ -7,11 +7,12 @@ import {ExerciseService} from "./exercise.service";
     template: `
                 <article class="panel panel-default" >
                     <div class="panel-body">
-                    {{ exercise.exName }}
+                    <p> Exercise Name  </p>
+                      {{ exercise.exName }}
             
                  </div> 
                  <div class="author">
-                       {{ exercise.sets}}
+                       Number of Sets {{ exercise.sets}}
                  </div>
                  <div class="author">
                        {{ exercise.reps}}
