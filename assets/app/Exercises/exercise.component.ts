@@ -9,8 +9,8 @@ import {ExerciseService} from "./exercise.service";
     template: `
                 <article class="panel panel-default" >
                     <div class="panel-body">
-                    <p> EXERCISE            {{ exercise.exName}} </p>
-                      
+                    
+                      <div class="reverse"> {{ exercise.exName}}  </div>
             
                  </div> 
                  <div class="author">
@@ -25,8 +25,8 @@ import {ExerciseService} from "./exercise.service";
                  <footer class="panel-footer">
                  
                         <div class="config" *ngIf="belongsToUser()">
-                            <a (click)="onEdit()">Edit</a>
-                            <a (click)="onDelete()">Delete</a>
+                            <a class="btn pull-left" (click)="onEdit()">Edit</a>
+                            <a class="btn pull-right" (click)="onDelete()">Delete</a>
                         </div>
                     </footer>
                 </article>
@@ -44,6 +44,13 @@ import {ExerciseService} from "./exercise.service";
         text-align: right;
         font-size: 12px;
         width: 19%;
+    }
+    .reverse {
+        background-color: grey;
+        text-align: center;
+    }
+    .btn {
+    background-color: purple;
     }
 `]
 })

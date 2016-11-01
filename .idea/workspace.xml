@@ -49,21 +49,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="690">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
               <folding>
-                <marker date="1478042514770" expanded="true" signature="309:1201" ph="..." />
-                <marker date="1478042514770" expanded="true" signature="355:485" ph="..." />
-                <marker date="1478042514770" expanded="true" signature="524:613" ph="..." />
-                <marker date="1478042514770" expanded="true" signature="651:730" ph="..." />
-                <marker date="1478042514770" expanded="true" signature="768:857" ph="..." />
-                <marker date="1478042514770" expanded="true" signature="904:1174" ph="..." />
-                <marker date="1478042514770" expanded="true" signature="991:1144" ph="..." />
+                <marker date="1478043216139" expanded="true" signature="309:1247" ph="..." />
+                <marker date="1478043216139" expanded="true" signature="355:486" ph="..." />
+                <marker date="1478043216139" expanded="true" signature="525:614" ph="..." />
+                <marker date="1478043216139" expanded="true" signature="652:731" ph="..." />
+                <marker date="1478043216139" expanded="true" signature="769:858" ph="..." />
+                <marker date="1478043216139" expanded="true" signature="905:1220" ph="..." />
+                <marker date="1478043216139" expanded="true" signature="992:1190" ph="..." />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="285">
+                <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -406,7 +422,7 @@
       <workItem from="1477322268258" duration="11390000" />
       <workItem from="1477347413206" duration="785000" />
       <workItem from="1477432882457" duration="6329000" />
-      <workItem from="1478038025282" duration="3800000" />
+      <workItem from="1478038025282" duration="4613000" />
     </task>
     <task id="LOCAL-00001" summary="working with routes and views in express and node">
       <created>1475330905317</created>
@@ -730,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478041762960</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="ADJUSTING STYLE&#10;">
+      <created>1478042573200</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1478042573200</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79418000" />
+    <option name="totallyTimeSpent" value="80231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -786,7 +809,8 @@
     <MESSAGE value="Testing new branch" />
     <MESSAGE value="Created Exercise model" />
     <MESSAGE value="New read.me&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="New read.me&#10;" />
+    <MESSAGE value="ADJUSTING STYLE&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADJUSTING STYLE&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1159,20 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="285">
-            <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/Exercises/exercises.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1228,18 +1238,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="690">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
           <folding>
-            <marker date="1478042514770" expanded="true" signature="309:1201" ph="..." />
-            <marker date="1478042514770" expanded="true" signature="355:485" ph="..." />
-            <marker date="1478042514770" expanded="true" signature="524:613" ph="..." />
-            <marker date="1478042514770" expanded="true" signature="651:730" ph="..." />
-            <marker date="1478042514770" expanded="true" signature="768:857" ph="..." />
-            <marker date="1478042514770" expanded="true" signature="904:1174" ph="..." />
-            <marker date="1478042514770" expanded="true" signature="991:1144" ph="..." />
+            <marker date="1478043216139" expanded="true" signature="309:1247" ph="..." />
+            <marker date="1478043216139" expanded="true" signature="355:486" ph="..." />
+            <marker date="1478043216139" expanded="true" signature="525:614" ph="..." />
+            <marker date="1478043216139" expanded="true" signature="652:731" ph="..." />
+            <marker date="1478043216139" expanded="true" signature="769:858" ph="..." />
+            <marker date="1478043216139" expanded="true" signature="905:1220" ph="..." />
+            <marker date="1478043216139" expanded="true" signature="992:1190" ph="..." />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
