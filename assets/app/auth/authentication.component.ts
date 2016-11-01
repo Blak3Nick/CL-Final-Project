@@ -4,6 +4,9 @@ import {RouteConfig, ROUTER_DIRECTIVES} from "angular2/router";
 import {SigninComponent} from "./signin.component";
 import {LogoutComponent} from "./logout.component";
 import {AuthService} from "./auth.service";
+
+//Create the sign-in/sign-out component to log users in and out
+
 @Component({
     selector: 'my-auth',
     template: `

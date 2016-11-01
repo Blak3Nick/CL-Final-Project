@@ -6,7 +6,7 @@ import {Observable} from "rxjs/Observable";
 import 'rxjs/Rx';
 @Injectable()
 
-
+//Create an authorization service to log users in and out. This service can be used by the entire app
 export class AuthService {
     constructor(private _http: Http){
 

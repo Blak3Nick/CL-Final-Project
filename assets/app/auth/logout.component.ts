@@ -1,6 +1,9 @@
 import {Component} from "angular2/core";
 import {AuthService} from "./auth.service";
 import {Router} from "angular2/router";
+
+//Logout the current user
+
 @Component({
     selector: 'my-logout',
     template: `

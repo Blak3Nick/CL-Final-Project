@@ -3,7 +3,7 @@ import {FormBuilder, ControlGroup, Validators, Control} from "angular2/common";
 import {User} from "./user";
 import {AuthService} from "./auth.service";
 
-
+//Creates the user sign-up page
 
 @Component({
     selector: 'my-signup',

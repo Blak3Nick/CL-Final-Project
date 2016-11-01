@@ -3,6 +3,9 @@ import {FormBuilder, ControlGroup, Validators, Control} from "angular2/common";
 import {User} from "./user";
 import {AuthService} from "./auth.service";
 import {Router} from "angular2/router";
+
+//Create the sign in component
+
 @Component({
     selector: 'my-sign-in',
     template: `
