@@ -7,6 +7,8 @@ import {ROUTER_DIRECTIVES} from "angular2/router";
 import {ExercisesComponent} from "./exercises/exercises.component";
 
 
+//This is the Main App that Angular will render everything else from, it has the router outlet which points to components
+
 @Component({
     selector: 'my-app',
     template: `  

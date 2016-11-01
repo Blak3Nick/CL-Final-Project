@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-
+//Using Mongoose Schemas define what a user is for the backend
 var Schema = mongoose.Schema;
 
 var mongooseUniqueValidator = require('mongoose-unique-validator');

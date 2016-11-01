@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-
+//Using Mongoose Schemas define what an exercise is for the backend
 var Schema = mongoose.Schema;
 var User = require('../models/user');
 var schema = new Schema({

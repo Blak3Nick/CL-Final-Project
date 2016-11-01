@@ -1,7 +1,7 @@
 # CL-Final-Project
 
 Prerequisites-
-1. Install Gulp globally
+1. Install Gulp globally\n 
 2. Install mongoDB and set your path variables so that you can execute mongo commands from anywhere
 
 To get the app running do the following:

@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-
+//Using Mongoose Schemas define what a message is for the backend
 var Schema = mongoose.Schema;
 var User = require('../models/user');
 var schema = new Schema({
