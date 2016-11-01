@@ -1,5 +1,5 @@
 
-//Defines what an exercise is and how to use it
+//Defines what an exercise is and allows the app to use it as a model
 
 export class Exercise {
     exName: string;

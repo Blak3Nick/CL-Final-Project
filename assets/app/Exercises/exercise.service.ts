@@ -7,6 +7,8 @@ import {Observable} from "rxjs/Observable";
 
 @Injectable()
 
+//Exercise Service that gets, puts, updates and deletes the exercises in the backend and gives them to Angular to render
+
 export class ExerciseService {
     exercises :Exercise[] = [];
     exerciseIsEdit = new EventEmitter<Exercise>();

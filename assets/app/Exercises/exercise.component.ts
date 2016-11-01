@@ -2,6 +2,8 @@ import {Component, EventEmitter, Input, Output} from "angular2/core";
 import {Exercise} from "./exercise";
 import {ExerciseService} from "./exercise.service";
 
+//Creates the main exercise component
+
 @Component({
     selector: 'my-exercise',
     template: `
