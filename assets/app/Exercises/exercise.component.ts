@@ -9,18 +9,18 @@ import {ExerciseService} from "./exercise.service";
     template: `
                 <article class="panel panel-default" >
                     <div class="panel-body">
-                    <p> Exercise Name  </p>
-                      {{ exercise.exName }}
+                    <p> EXERCISE            {{ exercise.exName}} </p>
+                      
             
                  </div> 
                  <div class="author">
-                       Number of Sets {{ exercise.sets}}
+                      <p>TOTAL SETS      {{ exercise.sets}}</p> 
                  </div>
                  <div class="author">
-                       {{ exercise.reps}}
+                      <p> REPS {{ exercise.reps}}</p> 
                  </div>
                  <div class="author">
-                       {{ exercise.weight}}
+                       <p> WEIGHT USED{{ exercise.weight}} </p> 
                  </div>
                  <footer class="panel-footer">
                  
