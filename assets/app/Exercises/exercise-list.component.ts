@@ -3,6 +3,8 @@ import {ExerciseComponent} from "./exercise.component";
 import {Exercise} from "./exercise";
 import {ExerciseService} from "./exercise.service";
 
+//For each exercise that is logged Angular will display it
+
 @Component({
     selector: 'my-exercise-list',
     template: `
