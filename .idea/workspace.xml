@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5705afa-206f-4874-80ba-fb0368007538" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts" afterPath="$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
     <ignored path="cl-final-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -422,7 +420,7 @@
       <workItem from="1477322268258" duration="11390000" />
       <workItem from="1477347413206" duration="785000" />
       <workItem from="1477432882457" duration="6329000" />
-      <workItem from="1478038025282" duration="4613000" />
+      <workItem from="1478038025282" duration="5218000" />
     </task>
     <task id="LOCAL-00001" summary="working with routes and views in express and node">
       <created>1475330905317</created>
@@ -753,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478042573200</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="ADJUSTING STYLE&#10;">
+      <created>1478043378925</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1478043378925</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80231000" />
+    <option name="totallyTimeSpent" value="80836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
