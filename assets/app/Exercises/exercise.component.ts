@@ -10,7 +10,9 @@ import {ExerciseService} from "./exercise.service";
                 <article class="panel panel-default" >
                     <div class="panel-body">
                     
-                      <div class="reverse"> {{ exercise.exName}}({{ exercise.date }})  </div>
+                      <div class="reverse"> {{ exercise.exName}}  </div>
+                       <div class="reverse"> 
+                      ({{ exercise.date }})  </div>
                             
                  </div> 
                  <div class="author">

@@ -101,16 +101,17 @@
       <file leaf-file-name="exercise.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            <state relative-caret-position="220">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
               <folding>
-                <marker date="1478535030582" expanded="true" signature="309:1520" ph="..." />
-                <marker date="1478535030582" expanded="true" signature="355:523" ph="..." />
-                <marker date="1478535030582" expanded="true" signature="562:725" ph="..." />
-                <marker date="1478535030582" expanded="true" signature="763:924" ph="..." />
-                <marker date="1478535030582" expanded="true" signature="962:1125" ph="..." />
-                <marker date="1478535030582" expanded="true" signature="1173:1493" ph="..." />
-                <marker date="1478535030582" expanded="true" signature="1260:1463" ph="..." />
+                <marker date="1478535369382" expanded="true" signature="309:1597" ph="..." />
+                <marker date="1478535369382" expanded="true" signature="355:600" ph="..." />
+                <marker date="1478535369382" expanded="true" signature="494:547" ph="..." />
+                <marker date="1478535369382" expanded="true" signature="639:802" ph="..." />
+                <marker date="1478535369382" expanded="true" signature="840:1001" ph="..." />
+                <marker date="1478535369382" expanded="true" signature="1039:1202" ph="..." />
+                <marker date="1478535369382" expanded="true" signature="1250:1570" ph="..." />
+                <marker date="1478535369382" expanded="true" signature="1337:1540" ph="..." />
               </folding>
             </state>
           </provider>
@@ -456,14 +457,7 @@
       <workItem from="1477347413206" duration="785000" />
       <workItem from="1477432882457" duration="6329000" />
       <workItem from="1478038025282" duration="5218000" />
-      <workItem from="1478530924067" duration="3292000" />
-    </task>
-    <task id="LOCAL-00004" summary="working with mongo and mongoose">
-      <created>1475332594413</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1475332594413</updated>
+      <workItem from="1478530924067" duration="4729000" />
     </task>
     <task id="LOCAL-00005" summary="working with mongo and mongoose">
       <created>1475333471925</created>
@@ -801,11 +795,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478532655658</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Changing the style of the displayed data&#10;&#10;">
+      <created>1478535161168</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1478535161168</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84128000" />
+    <option name="totallyTimeSpent" value="85565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -819,7 +820,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07683616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34011298" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -859,7 +860,8 @@
     <MESSAGE value="New read.me&#10;" />
     <MESSAGE value="ADJUSTING STYLE&#10;" />
     <MESSAGE value="Added new date to the  front and back end&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new date to the  front and back end&#10;&#10;" />
+    <MESSAGE value="Changing the style of the displayed data&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing the style of the displayed data&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1265,16 +1267,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="220">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
           <folding>
-            <marker date="1478535030582" expanded="true" signature="309:1520" ph="..." />
-            <marker date="1478535030582" expanded="true" signature="355:523" ph="..." />
-            <marker date="1478535030582" expanded="true" signature="562:725" ph="..." />
-            <marker date="1478535030582" expanded="true" signature="763:924" ph="..." />
-            <marker date="1478535030582" expanded="true" signature="962:1125" ph="..." />
-            <marker date="1478535030582" expanded="true" signature="1173:1493" ph="..." />
-            <marker date="1478535030582" expanded="true" signature="1260:1463" ph="..." />
+            <marker date="1478535369382" expanded="true" signature="309:1597" ph="..." />
+            <marker date="1478535369382" expanded="true" signature="355:600" ph="..." />
+            <marker date="1478535369382" expanded="true" signature="494:547" ph="..." />
+            <marker date="1478535369382" expanded="true" signature="639:802" ph="..." />
+            <marker date="1478535369382" expanded="true" signature="840:1001" ph="..." />
+            <marker date="1478535369382" expanded="true" signature="1039:1202" ph="..." />
+            <marker date="1478535369382" expanded="true" signature="1250:1570" ph="..." />
+            <marker date="1478535369382" expanded="true" signature="1337:1540" ph="..." />
           </folding>
         </state>
       </provider>
