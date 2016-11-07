@@ -9,6 +9,10 @@ import {OnInit} from "angular2/core";
     template: `
         <section class="col-md-8 col-md-offset-2">
         <form (ngSubmit)="onSubmit(f.value)" #f="ngForm">
+             <div class="form-group">
+                <label for="date">Date Performed</label>
+                <input ngControl="date" type="text" class="form-control" id="date" #input [ngModel]="exercise?.date">
+            </div>
             <div class="form-group">
                 <label for="exName">Exercise Name</label>
                 <input ngControl="exName" type="text" class="form-control" id="exName" #input [ngModel]="exercise?.exName">
@@ -46,6 +50,7 @@ export class ExerciseInputComponent implements OnInit{
             //Edit
             this.exercise.exName = form.exName;
             this.exercise.sets = form.sets;
+            this.exercise.date = form.date;
             this.exercise.weight = form.weight;
             this.exercise.reps = form.reps;
             console.log(this.exercise);
@@ -56,7 +61,7 @@ export class ExerciseInputComponent implements OnInit{
                 );
             this.exercise = null;
         }else {
-            const exercise: Exercise = new Exercise(form.exName, form.sets, form.reps, form.weight);
+            const exercise: Exercise = new Exercise(form.exName, form.sets, form.date, form.reps, form.weight);
             this._exerciseService.addExercise(exercise)
                 .subscribe(
                     data => {

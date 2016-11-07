@@ -45,6 +45,7 @@ router.post('/', function(req, res, next){
         var exercise = new Exercise({
             exName: req.body.exName,
             sets: req.body.sets,
+            date: req.body.date,
             reps: req.body.reps,
             weight: req.body.weight,
             user: doc
@@ -90,6 +91,7 @@ router.patch('/:id', function (req, res, next) {
         }
         doc.exName = req.body.exName;
         doc.sets = req.body.sets;
+        doc.date = req.body.date;
         doc.reps = req.body.reps;
         doc.weight = req.body.weight;
         doc.save(function (err, result) {

@@ -20,7 +20,7 @@ export class ExerciseService {
         return this._http.post('http://localhost:3000/exercise' + token , body, {headers: headers})
             .map(response => {
                 const data = response.json().obj;
-                let exercise = new Exercise(data.exName, data.sets, data.reps, data.weight);
+                let exercise = new Exercise(data.exName, data.sets, data.date, data.reps, data.weight);
                 return exercise;
             })
             .catch(error => Observable.throw(error.json()));
@@ -32,7 +32,7 @@ export class ExerciseService {
                 const data = response.json().obj;
                 let objs: any[] = [];
                 for (let i=0; i<data.length; i++) {
-                    let exercise = new Exercise(data[i].exName, data[i].sets, data[i].reps, data[i].weight, data[i]._id);
+                    let exercise = new Exercise(data[i].exName, data[i].sets, data[i].date, data[i].reps, data[i].weight, data[i]._id);
                     objs.push(exercise);
                     console.log(data[i]);
                 };

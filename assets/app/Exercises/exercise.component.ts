@@ -10,8 +10,8 @@ import {ExerciseService} from "./exercise.service";
                 <article class="panel panel-default" >
                     <div class="panel-body">
                     
-                      <div class="reverse"> {{ exercise.exName}}  </div>
-            
+                      <div class="reverse"> {{ exercise.exName}}({{ exercise.date }})  </div>
+                            
                  </div> 
                  <div class="author">
                       <p>TOTAL SETS      {{ exercise.sets}}</p> 
@@ -22,6 +22,7 @@ import {ExerciseService} from "./exercise.service";
                  <div class="author">
                        <p> WEIGHT USED{{ exercise.weight}} </p> 
                  </div>
+
                  <footer class="panel-footer">
                  
                         <div class="config" *ngIf="belongsToUser()">

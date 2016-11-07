@@ -4,15 +4,16 @@
 export class Exercise {
     exName: string;
     sets: number;
-
+    date: string;
     reps: number;
     weight: number;
     id: string;
 
 
-    constructor (exName?: string, sets?: number, reps?: number, weight?: number, id?: string ) {
+    constructor (exName?: string, sets?: number, date?: string, reps?: number, weight?: number, id?: string ) {
         this.exName = exName;
         this.sets = sets;
+        this.date = date;
         this.reps = reps;
         this.weight = weight;
         this.id = id;
