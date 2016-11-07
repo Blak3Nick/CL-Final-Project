@@ -69,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -453,14 +453,7 @@
       <workItem from="1477347413206" duration="785000" />
       <workItem from="1477432882457" duration="6329000" />
       <workItem from="1478038025282" duration="5218000" />
-      <workItem from="1478530924067" duration="1657000" />
-    </task>
-    <task id="LOCAL-00002" summary="working with routes and views in express and node">
-      <created>1475331559434</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1475331559434</updated>
+      <workItem from="1478530924067" duration="1728000" />
     </task>
     <task id="LOCAL-00003" summary="working with mongo and mongoose">
       <created>1475331816980</created>
@@ -798,11 +791,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478532532408</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Added new date to the  front and back end&#10;&#10;">
+      <created>1478532584322</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1478532584322</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82493000" />
+    <option name="totallyTimeSpent" value="82564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1269,7 +1269,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>

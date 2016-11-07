@@ -1,6 +1,6 @@
 # CL-Final-Project
 
-Purpose of the App
+Purpose of the App<br />
 This app was built to log a person's exercises and keep track of the weight used as well as how many sets were performed.
 
 Prerequisites-  
