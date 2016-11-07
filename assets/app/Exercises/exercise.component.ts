@@ -14,20 +14,23 @@ import {ExerciseService} from "./exercise.service";
                             
                  </div> 
                  <div class="author">
-                      <p>TOTAL SETS      {{ exercise.sets}}</p> 
+                      <p>Total Sets </p>  
+                         <p class="col-sm-1 col-sm-offset-1 specColor"> {{ exercise.sets}}</p> 
                  </div>
                  <div class="author">
-                      <p> REPS {{ exercise.reps}}</p> 
+                      <p> Reps Per Set </p>
+                      <p class="col-sm-1 col-sm-offset-1 specColor"> {{ exercise.reps}} </p>
                  </div>
                  <div class="author">
-                       <p> WEIGHT USED{{ exercise.weight}} </p> 
+                       <p> Weight Used</p>
+                       <p class="col-sm-1 col-sm-offset-1 specColor">{{ exercise.weight}} </p> 
                  </div>
 
                  <footer class="panel-footer">
                  
                         <div class="config" *ngIf="belongsToUser()">
-                            <a class="btn pull-left" (click)="onEdit()">Edit</a>
-                            <a class="btn pull-right" (click)="onDelete()">Delete</a>
+                            <a class="col-sm-1" (click)="onEdit()">Edit</a>
+                            <a class="col-sm-1 col-sm-offset-1" (click)="onDelete()">Delete</a>
                         </div>
                     </footer>
                 </article>
@@ -52,6 +55,9 @@ import {ExerciseService} from "./exercise.service";
     }
     .btn {
     background-color: purple;
+    }
+    .specColor {
+    color: #721aad;
     }
 `]
 })

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f5705afa-206f-4874-80ba-fb0368007538" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts" afterPath="$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
     <ignored path="cl-final-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
@@ -80,7 +81,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
+              <folding>
+                <marker date="1478531633533" expanded="true" signature="196:406" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,19 +98,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="exercise.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+            <state relative-caret-position="644">
+              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
               <folding>
-                <marker date="1478531966246" expanded="true" signature="309:1285" ph="..." />
-                <marker date="1478531966246" expanded="true" signature="355:523" ph="..." />
-                <marker date="1478531966246" expanded="true" signature="562:651" ph="..." />
-                <marker date="1478531966246" expanded="true" signature="689:768" ph="..." />
-                <marker date="1478531966246" expanded="true" signature="806:895" ph="..." />
-                <marker date="1478531966246" expanded="true" signature="943:1258" ph="..." />
-                <marker date="1478531966246" expanded="true" signature="1030:1228" ph="..." />
+                <marker date="1478535030582" expanded="true" signature="309:1520" ph="..." />
+                <marker date="1478535030582" expanded="true" signature="355:523" ph="..." />
+                <marker date="1478535030582" expanded="true" signature="562:725" ph="..." />
+                <marker date="1478535030582" expanded="true" signature="763:924" ph="..." />
+                <marker date="1478535030582" expanded="true" signature="962:1125" ph="..." />
+                <marker date="1478535030582" expanded="true" signature="1173:1493" ph="..." />
+                <marker date="1478535030582" expanded="true" signature="1260:1463" ph="..." />
               </folding>
             </state>
           </provider>
@@ -156,8 +159,8 @@
         <option value="$PROJECT_DIR$/assets/app/Exercises/exercise-input.component.ts" />
         <option value="$PROJECT_DIR$/models/exercise.js" />
         <option value="$PROJECT_DIR$/routes/exercises.js" />
-        <option value="$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts" />
       </list>
     </option>
   </component>
@@ -453,14 +456,7 @@
       <workItem from="1477347413206" duration="785000" />
       <workItem from="1477432882457" duration="6329000" />
       <workItem from="1478038025282" duration="5218000" />
-      <workItem from="1478530924067" duration="1728000" />
-    </task>
-    <task id="LOCAL-00003" summary="working with mongo and mongoose">
-      <created>1475331816980</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1475331816980</updated>
+      <workItem from="1478530924067" duration="3292000" />
     </task>
     <task id="LOCAL-00004" summary="working with mongo and mongoose">
       <created>1475332594413</created>
@@ -798,11 +794,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478532584322</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Added new date to the  front and back end&#10;&#10;">
+      <created>1478532655658</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1478532655658</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82564000" />
+    <option name="totallyTimeSpent" value="84128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -816,7 +819,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07683616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1042,7 +1045,7 @@
         <state relative-caret-position="120">
           <caret line="8" column="101" selection-start-line="8" selection-start-column="101" selection-end-line="8" selection-end-column="101" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1052,7 +1055,7 @@
         <state relative-caret-position="105">
           <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1192,7 +1195,7 @@
         <state relative-caret-position="154">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
             <marker date="1478530897050" expanded="true" signature="371:530" ph="..." />
           </folding>
         </state>
@@ -1213,7 +1216,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
+          <folding>
+            <marker date="1478531633533" expanded="true" signature="196:406" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1225,19 +1230,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
-          <folding>
-            <marker date="1478531966246" expanded="true" signature="309:1285" ph="..." />
-            <marker date="1478531966246" expanded="true" signature="355:523" ph="..." />
-            <marker date="1478531966246" expanded="true" signature="562:651" ph="..." />
-            <marker date="1478531966246" expanded="true" signature="689:768" ph="..." />
-            <marker date="1478531966246" expanded="true" signature="806:895" ph="..." />
-            <marker date="1478531966246" expanded="true" signature="943:1258" ph="..." />
-            <marker date="1478531966246" expanded="true" signature="1030:1228" ph="..." />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,11 +1263,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/assets/app/Exercises/exercise.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="644">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding>
+            <marker date="1478535030582" expanded="true" signature="309:1520" ph="..." />
+            <marker date="1478535030582" expanded="true" signature="355:523" ph="..." />
+            <marker date="1478535030582" expanded="true" signature="562:725" ph="..." />
+            <marker date="1478535030582" expanded="true" signature="763:924" ph="..." />
+            <marker date="1478535030582" expanded="true" signature="962:1125" ph="..." />
+            <marker date="1478535030582" expanded="true" signature="1173:1493" ph="..." />
+            <marker date="1478535030582" expanded="true" signature="1260:1463" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
