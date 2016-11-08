@@ -60,6 +60,7 @@ import {ExerciseService} from "./exercise.service";
     }
     .specColor {
     color: #721aad;
+    font-size: 2em;
     }
 `]
 })
