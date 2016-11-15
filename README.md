@@ -4,8 +4,8 @@ Purpose of the App<br />
 This app was built to log a person's exercises and keep track of the weight used as well as how many sets were performed.
 
 Prerequisites-  
-1. Install Gulp globally  
-2. Install mongoDB and set your path variables so that you can execute mongo commands from anywhere  
+1. Install Gulp globally  "npm install gulp -g"  
+2. Install mongoDB and set your path variables so that you can execute mongo commands from anywhere. Use the following website for documentation on installation instructions https://docs.mongodb.com/manual/administration/install-community/
 
 To get the app running do the following:  
 1.  Clone the repository  
