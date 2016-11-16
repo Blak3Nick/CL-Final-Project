@@ -9,7 +9,9 @@ import {LocationStrategy} from "angular2/router";
 import {HashLocationStrategy} from "angular2/router";
 import {AuthService} from "./auth/auth.service";
 import {ExerciseService} from "./Exercises/exercise.service";
+import {userSignService} from "./auth/userSign.service";
+
 
 
 //This is where Angular declares different services that will be used
-bootstrap(AppComponent, [HTTP_PROVIDERS, ExerciseService, AuthService, ROUTER_PROVIDERS, provide(LocationStrategy, {useClass: HashLocationStrategy})]);
+bootstrap(AppComponent, [HTTP_PROVIDERS, ExerciseService, AuthService, userSignService, ROUTER_PROVIDERS, provide(LocationStrategy, {useClass: HashLocationStrategy})]);

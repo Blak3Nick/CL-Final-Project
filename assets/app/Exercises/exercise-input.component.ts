@@ -4,9 +4,11 @@ import {Exercise} from "./exercise";
 import {Http} from "angular2/http";
 import {ExerciseService} from "./exercise.service";
 import {OnInit} from "angular2/core";
+import {userSignService} from "../auth/userSign.service";
 @Component({
     selector: 'my-exercise-input',
     template: `
+        <h1 class="warning"  *ngIf="!signedIn" >PLEASE SIGN IN TO USE THE APP</h1>
         <section class="col-md-8 col-md-offset-2">
         <form (ngSubmit)="onSubmit(f.value)" #f="ngForm">
              <div class="form-group">
@@ -30,11 +32,18 @@ import {OnInit} from "angular2/core";
                 <label for="weight">Weight</label>
                 <input ngControl="weight" type="text" class="form-control" id="weight" #input [ngModel]="exercise?.weight">
             </div>            
-            <button type="submit" class="btn btn-primary" (click)="onCreate(input.value)"> {{!exercise ? 'Log Exercise' : 'Save Exercise'}}</button>
+            <button *ngIf="signedIn" type="submit" class="btn btn-primary" (click)="onCreate(input.value)"> {{!exercise ? 'Log Exercise' : 'Save Exercise'}}</button>
             <button type="button" (click)="onCancel()" *ngIf="exercise" class="btn btn-danger">Cancel</button>
             </form>
         </section>
 `,
+    styles:[`
+        .warning{
+            font-size: 4em;
+            color: red;
+            text-align: center;
+        }
+`]
 
 
 })
@@ -45,6 +54,8 @@ export class ExerciseInputComponent implements OnInit{
     constructor(private _exerciseService: ExerciseService) {
 
     }
+
+    signedIn = localStorage.getItem('token');
     onSubmit(form: any) {
         if (this.exercise){
             //Edit
