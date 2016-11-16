@@ -7,7 +7,7 @@ import {ExerciseService} from "./exercise.service";
 @Component({
     selector: 'my-exercise',
     template: `
-                <article class="panel panel-default" >
+                <article *ngIf="signedIn" class="panel panel-default" >
                     <div class="panel-body">
                     
                       <div class="reverse"> {{ exercise.exName}}  </div>
@@ -71,7 +71,7 @@ export class ExerciseComponent {
     constructor( private _exerciseService: ExerciseService){
 
     }
-
+    signedIn = localStorage.getItem('token');
     onEdit() {
         this._exerciseService.editExercise(this.exercise);
     }

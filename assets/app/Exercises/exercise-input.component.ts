@@ -9,7 +9,7 @@ import {userSignService} from "../auth/userSign.service";
     selector: 'my-exercise-input',
     template: `
         <h1 class="warning"  *ngIf="!signedIn" >PLEASE SIGN IN TO USE THE APP</h1>
-        <section class="col-md-8 col-md-offset-2">
+        <section *ngIf="signedIn" class="col-md-8 col-md-offset-2">
         <form (ngSubmit)="onSubmit(f.value)" #f="ngForm">
              <div class="form-group">
                 <label for="date">Date Performed</label>
